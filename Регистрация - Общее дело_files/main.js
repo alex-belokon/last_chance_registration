@@ -215,7 +215,7 @@ $(function() {
 
     function i(t) {
         for (var r = names.length, i = n(0, r), u, f; o(t, i);) i = n(0, r);
-        return u = n(100, 600), f = '<li class="review__item"><div class="review__user_photo"><img src="img/users/' + i + '.jpg" alt=""></div><div class="review__info"><div class="review__info_name">' + names[i] + '</div><div class="review__info_signature">только что заработал(а)</div><div class="review__info_money">$ ' + u + "," + n(10, 99) + '</div></div></li>', [f, i]
+        return u = n(100, 600), f = '<li class="review__item"><div class="review__user_photo"><img src="img/users/' + i + '.jpg" alt=""></div><div class="review__info"><div class="review__info_name">' + names[i] + '</div><div class="review__info_signature">just made</div><div class="review__info_money">$ ' + u + "," + n(3, 7) + '</div></div></li>', [f, i]
     }
 
     function n(n, t) {
@@ -244,7 +244,7 @@ $(function() {
             u(t)
         }, i)
     }
-    names = ["Виталий", "Константин", "Андрей", "Валентин", "Георгий", "Николай", "Данила", "Вячеслав"];
+    names = ["David", "Mark", "Michael", "Sergio", "Mathew", "Nicolas", "Charles"];
     (new WOW).init();
     $(".navbar-tog").click(function() {
         $(this).toggleClass("navbar-on");

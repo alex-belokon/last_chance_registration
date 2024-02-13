@@ -173,7 +173,7 @@ body .container .button_yes:before {
     background: url(./main-form-button.png) center center no-repeat;
     background-size: 100% 100%;
     z-index: 2;
-    left: -70px;
+    left: -107px;
     top: 50%;
     margin-top: -63px;
     pointer-events: none;
@@ -436,7 +436,7 @@ body footer ul.menu_footer a {
     position: relative;
     z-index: 2;
     max-height: 99vh;
-    overflow-y: auto;
+    overflow-y: hidden;
     width: 95%;
     max-width: 535px
 }
@@ -656,7 +656,7 @@ body footer ul.menu_footer a {
 }
 
 .reg-body__cont-wr {
-    background: url(./ibg.jpg) center center no-repeat;
+    background: url(./ibg.jpg) center center no-repeat !important;
     background-size: cover;
     padding-top: 69px
 }
